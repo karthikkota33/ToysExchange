@@ -1,6 +1,7 @@
 import React from 'react';
-import { StyleSheet, Text, View, Slider} from 'react-native';
-// import Slider from '@react-native-community/slider';
+// import { StyleSheet, Text, View, Slider} from 'react-native';
+import { StyleSheet, Text, View} from 'react-native';
+import Slider from '@react-native-community/slider';
 export default class App extends React.Component {
     constructor(props) {
         super(props);

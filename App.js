@@ -2,7 +2,8 @@ import React, { useState } from 'react';
 import { Button, StyleSheet, Text, View, Image } from 'react-native';
 import * as ImagePicker from 'expo-image-picker';
 import NetInfo from '@react-native-community/netinfo';
-import AsyncStorage from '@react-native-community/async-storage';
+// import AsyncStorage from '@react-native-community/async-storage';
+import {AsyncStorage} from 'react-native';
 import { AppLoading } from 'expo';
 
 
